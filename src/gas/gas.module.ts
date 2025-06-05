@@ -28,4 +28,11 @@ export class GasModule {
       default: return StarkNetRpcProvider;
     }
   }
+    static forFeature(): DynamicModule {
+        return {
+        module: GasModule,
+        providers: [],
+        exports: [],
+        };
+    }
 }

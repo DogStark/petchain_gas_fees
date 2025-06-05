@@ -1,3 +1,5 @@
+import { GasDataProvider } from '../interfaces/gas-data-provider.interface';
+
 @Injectable()
 export class GasAnalyticsService {
   constructor(
