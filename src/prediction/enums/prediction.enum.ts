@@ -1,0 +1,36 @@
+export enum ModelType {
+  LINEAR_REGRESSION = 'LINEAR_REGRESSION',
+  RANDOM_FOREST = 'RANDOM_FOREST',
+  XGBOOST = 'XGBOOST',
+  LSTM = 'LSTM',
+  TRANSFORMER = 'TRANSFORMER',
+}
+
+export enum ModelStatus {
+  TRAINING = 'TRAINING',
+  EVALUATING = 'EVALUATING',
+  DEPLOYED = 'DEPLOYED',
+  FAILED = 'FAILED',
+  ARCHIVED = 'ARCHIVED',
+}
+
+export enum PredictionStatus {
+  PENDING = 'PENDING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+}
+
+export enum FeatureType {
+  NETWORK = 'NETWORK',
+  TIME = 'TIME',
+  TRANSACTION = 'TRANSACTION',
+  MARKET = 'MARKET',
+  HISTORICAL = 'HISTORICAL',
+}
+
+export enum ABTestStatus {
+  PENDING = 'PENDING',
+  RUNNING = 'RUNNING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+} 
