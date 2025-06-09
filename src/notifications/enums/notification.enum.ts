@@ -1,0 +1,22 @@
+export enum NotificationType {
+  GAS_PRICE_ALERT = 'GAS_PRICE_ALERT',
+  GAS_PRICE_THRESHOLD = 'GAS_PRICE_THRESHOLD',
+  PET_BREED_UPDATE = 'PET_BREED_UPDATE',
+  PET_HEALTH_ALERT = 'PET_HEALTH_ALERT',
+  SYSTEM_UPDATE = 'SYSTEM_UPDATE',
+  MAINTENANCE_NOTICE = 'MAINTENANCE_NOTICE',
+}
+
+export enum NotificationChannel {
+  EMAIL = 'EMAIL',
+  IN_APP = 'IN_APP',
+  PUSH = 'PUSH',
+}
+
+export enum NotificationStatus {
+  PENDING = 'PENDING',
+  SENT = 'SENT',
+  FAILED = 'FAILED',
+  SCHEDULED = 'SCHEDULED',
+  CANCELLED = 'CANCELLED',
+} 
